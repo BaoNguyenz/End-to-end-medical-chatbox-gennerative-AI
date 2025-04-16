@@ -1,0 +1,21 @@
+sentence-transformers==2.2.2
+#Dùng để chuyển câu thành vector embedding (thường dùng trong NLP để tìm kiếm tương tự, matching câu hỏi–trả lời, v.v.).
+Langchain
+#Framework xây dựng ứng dụng AI dùng LLMs như GPT (kết nối, quản lý memory, agent, tool...).
+flask
+#Web framework đơn giản để xây API/website. Rất nhẹ, thường dùng để build backend nhanh.
+pypdf
+#Đọc, xử lý file PDF trong Python (extract text, merge, split...).
+python-dotenv
+#Quản lý biến môi trường từ file .env (để giữ API key, config...).
+pinecone[grpc]
+#Dùng kết nối Pinecone – vector database để lưu trữ và tìm kiếm semantic vector. Sử dụng gói grpc để tối ưu hiệu suất.
+langchain-pinecone
+#Kết nối Langchain với Pinecone – để lưu và truy xuất dữ liệu vector.
+langchain_community
+#Tập hợp module của cộng đồng phát triển cho Langchain – như connectors, tools mới.
+langchain_openai
+#Tích hợp Langchain với các API của OpenAI (GPT, embeddings, chat models...).
+langchain_experimental	
+#Các tính năng mới, thử nghiệm (chưa chính thức) trong Langchain – như memory mới, agent đặc biệt...
+-e .
