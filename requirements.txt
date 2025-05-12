@@ -18,4 +18,4 @@ langchain_openai
 #Tích hợp Langchain với các API của OpenAI (GPT, embeddings, chat models...).
 langchain_experimental	
 #Các tính năng mới, thử nghiệm (chưa chính thức) trong Langchain – như memory mới, agent đặc biệt...
--e .
+-e 
